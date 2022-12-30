@@ -1,0 +1,11 @@
+:root {
+  --indigo: rgb(13, 61, 86);
+  --indigo-trans: rgba(13, 61, 86, 0.8);
+  --light-blue: rgb(96, 188, 214);
+  --light-blue-trans: rgba(96, 188, 214, 0.3);
+  --bluish: rgb(18, 135, 168);
+  --daisy: rgb(239, 212, 105);
+  --dark-daisy: rgb(235, 201, 68);
+  --greenish: rgb(181, 198, 137);
+  --orangish: rgb(245, 139, 76);
+}

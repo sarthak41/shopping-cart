@@ -1,0 +1,40 @@
+.main {
+  width: 100vw;
+  min-height: 140vh;
+  max-width: 100%;
+  position: relative;
+  background: url('../images/clothes2.jpg');
+  background-size: cover;
+}
+
+.text {
+  position: fixed;
+  top: 30vh;
+  left: 15vw;
+  font-size: 1.6rem;
+
+  width: 50%;
+
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+img {
+  min-height: 100%;
+  min-width: 100%;
+}
+
+body {
+  -ms-overflow-style: none;
+  /* for Internet Explorer, Edge */
+  scrollbar-width: none;
+  /* for Firefox */
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+  /* for Chrome, Safari, and Opera */
+}
