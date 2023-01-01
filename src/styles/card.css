@@ -1,0 +1,33 @@
+.card {
+  width: 250px;
+  height: 100%;
+  border: 2px solid gray;
+}
+
+.card img {
+  /* max-height: 60%; */
+  height: 300px;
+}
+
+.padding {
+  padding: 5px 20px;
+}
+
+.card button {
+  background-color: var(--bluish);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+/*
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+} */
