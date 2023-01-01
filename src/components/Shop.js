@@ -5,7 +5,7 @@ import "../styles/shop.css";
 export default function Shop({ items, setItems }) {
   const displayItems = () => {
     const itemCards = items.map((card) => (
-      <li key={items.id}>
+      <li key={card.id}>
         <Card
           id={card.id}
           src={card.src}
@@ -17,7 +17,11 @@ export default function Shop({ items, setItems }) {
         />
       </li>
     ));
-    return <ul>{itemCards}</ul>;
+    return (
+      <div className="items">
+        <ul>{itemCards}</ul>
+      </div>
+    );
   };
 
   return <div className="main-div">{displayItems()}</div>;

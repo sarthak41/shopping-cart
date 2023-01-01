@@ -35,19 +35,25 @@ export default function Card({ id, src, name, price, count, items, setItems }) {
         <div>{name}</div>
         <div>₹{price}</div>
       </div>
-      <div>
+      <div className="center">
         {count > 0 ? (
           <>
-            <button onClick={decCount}>-</button>
+            <button onClick={decCount} className="inc-dec minus">
+              -
+            </button>
             <input
               type="number"
               value={count}
               onChange={(e) => inputCount(e)}
             />
-            <button onClick={incCount}>+</button>
+            <button onClick={incCount} className="inc-dec plus">
+              +
+            </button>
           </>
         ) : (
-          <button onClick={addToCart}>Add to cart</button>
+          <button onClick={addToCart} className="rounded">
+            Add to cart
+          </button>
         )}
       </div>
     </div>

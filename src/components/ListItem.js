@@ -24,7 +24,7 @@ export default function ListItem({ id, name, price, count, items, setItems }) {
   };
 
   return (
-    <li>
+    <li key={id}>
       <div>{name}</div>
       <div>{price}</div>
       <button onClick={decCount}>-</button>

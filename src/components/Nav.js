@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/nav.css";
 import cartIcon from "../images/cart.svg";
 
-export default function Nav({ name }) {
+export default function Nav({ name, count }) {
   return (
     <nav>
       <ul>
@@ -24,6 +24,7 @@ export default function Nav({ name }) {
               <Link to="/cart">
                 <img src={cartIcon} alt="cart"></img>
               </Link>
+              ({count})
             </button>
           </li>
         </div>

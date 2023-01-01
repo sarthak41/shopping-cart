@@ -1,7 +1,11 @@
 .card {
-  width: 250px;
+  padding: 20px;
+  width: 300px;
   height: 100%;
   border: 2px solid gray;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 .card img {
@@ -18,16 +22,44 @@
   color: white;
   border: none;
   padding: 10px;
+}
+
+.rounded {
   border-radius: 4px;
 }
 
-/*
+.center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: click 0.3s;
+}
+
+.card input {
+  width: 40px;
+  text-align: center;
+  border: none;
+}
+
+.card input:focus {
+  outline: none;
+}
+
+.inc-dec {
+  font-weight: 700;
+  width: 40px;
+}
+
+.minus {
+  border-radius: 4px 0px 0px 4px;
+}
+
+.plus {
+  border-radius: 0px 4px 4px 0px;
+}
+
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
-
-input[type=number] {
-  -moz-appearance: textfield;
-} */

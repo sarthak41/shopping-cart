@@ -27,7 +27,10 @@ export default function RouteSwitch() {
 
   return (
     <BrowserRouter>
-      <Nav name="Name here" />
+      <Nav
+        name="Name here"
+        count={items.filter((item) => item.count > 0).length}
+      />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route
