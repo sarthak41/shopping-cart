@@ -22,9 +22,8 @@ export default function Nav({ name, count }) {
           <li>
             <button>
               <Link to="/cart">
-                <img src={cartIcon} alt="cart"></img>
+                <img src={cartIcon} alt="cart" />({count})
               </Link>
-              ({count})
             </button>
           </li>
         </div>

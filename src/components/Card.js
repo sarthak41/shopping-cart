@@ -33,7 +33,7 @@ export default function Card({ id, src, name, price, count, items, setItems }) {
       <img src={src} alt={name} />
       <div className="flex padding">
         <div>{name}</div>
-        <div>₹{price}</div>
+        <div className="lighter">₹{price}</div>
       </div>
       <div className="center">
         {count > 0 ? (
