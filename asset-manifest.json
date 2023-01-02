@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.3f7dfd8b.css",
+    "main.js": "/shopping-cart/static/js/main.a1651799.js",
+    "static/media/clothes2.jpg": "/shopping-cart/static/media/clothes2.8c73d1a5559ba882f3a7.jpg",
+    "static/media/blacktee.jpg": "/shopping-cart/static/media/blacktee.b731ad1a0fae844476d5.jpg",
+    "static/media/whitetee.jpg": "/shopping-cart/static/media/whitetee.c1d8b1851bb4490d7000.jpg",
+    "index.html": "/shopping-cart/index.html",
+    "static/media/cart.svg": "/shopping-cart/static/media/cart.287e70bcb24b99bd6facad3ebbef68ea.svg",
+    "main.3f7dfd8b.css.map": "/shopping-cart/static/css/main.3f7dfd8b.css.map",
+    "main.a1651799.js.map": "/shopping-cart/static/js/main.a1651799.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f7dfd8b.css",
+    "static/js/main.a1651799.js"
+  ]
+}
